@@ -1,3 +1,3 @@
 # Data Viz Workshop
 
-Setup instructions at [stefann.eu/viz-workshop](stefann.eu/viz-workshop)
+Setup instructions at [stefann.eu/viz-workshop](http://stefann.eu/viz-workshop)

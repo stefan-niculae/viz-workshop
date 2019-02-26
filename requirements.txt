@@ -1,13 +1,17 @@
+adjustText==0.7.3
 appnope==0.1.0
 backcall==0.1.0
 beautifulsoup4==4.6.3
 bleach==3.0.2
+certifi==2018.11.29
+chardet==3.0.4
 cycler==0.10.0
 dateparser==0.7.0
 decorator==4.3.0
 defusedxml==0.5.0
 entrypoints==0.2.3
 html5lib==1.0.1
+idna==2.8
 ipykernel==5.1.0
 ipython==7.2.0
 ipython-genutils==0.2.0
@@ -46,6 +50,7 @@ python-dateutil==2.7.5
 pytz==2018.7
 pyzmq==17.1.2
 regex==2018.11.22
+requests==2.21.0
 scipy==1.1.0
 seaborn==0.9.0
 Send2Trash==1.5.0
@@ -56,6 +61,7 @@ testpath==0.4.2
 tornado==5.1.1
 traitlets==4.3.2
 tzlocal==1.5.1
+urllib3==1.24.1
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.4.2

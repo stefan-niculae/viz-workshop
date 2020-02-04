@@ -7,46 +7,24 @@
   <style>
     body {
       font-family: 'Open Sans', Arial, sans-serif;
+      padding-top: 3em;
     }
 
     #container {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5em;
-    }
-
-    #container, #steps {
-      width: 810px;
-    }
-
-    h1, h2 {
-      text-transform: uppercase;
-      color: gray;
+      width: 600px;
+      margin: auto;
     }
 
     h1 {
+      text-transform: uppercase;
+      color: #222222;
       font-size: 1.9em;
       margin-bottom: .4em;
     }
+
     h2 {
       font-size: 1.4em;
-    }
-
-    h1, #address {
-      padding-left: 150px;
-    }
-
-    #steps {
-      margin-top: 4em;
-    }
-
-    #online-version {
-      width: 300px;
-      float: left;
-    }
-    #local-version {
-      width: 510px;
-      float: right;
+      margin-top: 3em;
     }
 
     ol {
@@ -68,43 +46,41 @@
 <body>
   <div id="container">
 
-    <h1>Setup Instructions</h1>
-    <div id="address">
-      Access this page at <a href="http://stefann.eu/viz-workshop">stefann.eu/viz-workshop</a>
-    </div>
+    <h1>Data Viz Workshop</h1>
+    <p>Access this page at <a href="http://stefann.eu/viz-workshop">stefann.eu/viz-workshop</a></p>
 
-    <div id="steps">
-      <div id="online-version">
-        <h2>Online version</h2>
+    <h2>Cloud setup (easiest)</h2>
+    <ol>
+      <li>
+        Open today's notebook: <br>
         <ol>
-          <li>
-            Open today's notebook: <br>
-            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/workshop-1.ipynb">5 Feb</a> ·
-            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/workshop-2.ipynb">12 Feb</a> ·
-            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/workshop-3.ipynb">19 Feb</a> ·
-            <a href="#">26 Feb</a>
-          </li>
-          <li>[File] > [Save a copy in Drive]</li>
-        </ol>
-      </div>
-
-      <div id="local-version">
-        <h2>Local version</h2>
-        <ol>
-          <li>
-            <code>git clone https://github.com/stefan-niculae/viz-workshop.git</code><br>
-            Open cloned repo: <code>cd viz-workshop</code>
-          </li>
-          <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
-          <li>Run the environment: <code>jupyter lab</code></li>
-          <li>
-            Click the [File Browser] icon on the top left<br>
-            Double click today's notebook
+          <li>Feb 3:
+            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/1a-python.ipynb">(a) Python</a> ·
+            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/1b-jupyter.ipynb">(b) Jupyter</a> ·
+            <a href="https://colab.research.google.com/github/stefan-niculae/viz-workshop/blob/master/1c-extra.ipynb">(c) Extra</a>
           </li>
         </ol>
-      </div>
-    </div>
+      </li>
+      <li>
+        In the top left menu: [File] > [Save a copy in Drive]<br>
+        Will ask to sign into your google account if not already signed in
+      </li>
+    </ol>
 
+    <h2>Local setup</h2>
+    <ol>
+      <li>
+        <code>git clone https://github.com/stefan-niculae/viz-workshop.git</code><br>
+        Open cloned repo: <code>cd viz-workshop</code>
+      </li>
+      <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+      <li>Run the environment: <code>jupyter lab</code></li>
+      <li>
+        Click the [File Browser] icon on the top left<br>
+        Double click today's notebook
+      </li>
+    </ol>
   </div>
+
 </body>
 </html>
